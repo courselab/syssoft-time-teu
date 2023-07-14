@@ -9,6 +9,13 @@ Pedro Augusto Ribeiro Gomes, 11819125
 Thiago Henrique Cardoso, 11796594
 
 
+# Sobre:
+
+Nesse README explicaremos o desenvolvimento da questão 1, da qual os arquivos estão no repositorio ``/hack01``.
+
+O desenvolvimento das questões 2 e extra estão no pdf neste repositório.
+
+
 ## Explicação da descoberta da vulnerabilidade:
 
 Inicialmente, enfrentamos o problema de autenticação e procuramos contorná-lo. Descobrimos que poderíamos explorar o fluxo lógico do código binário usando o programa gdb. Utilizamos comandos como "disassemble" para visualizar a função principal (main) e percebemos a chamada da função "authorize". Também usamos outros comandos, como "ni" (next instruction), "si" (step instruction), "set disassembly-favor intel" (configura a visualização em formato Intel), "record" (registra a execução para reprodução posterior), "fin" (finish), "print" (imprimir).
