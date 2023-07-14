@@ -1,8 +1,11 @@
 # Membros:
 
 Adrio Oliveira Alves, 11796830
+
 Eduardo Vinicius Barbosa Rossi, 10716887
+
 Pedro Augusto Ribeiro Gomes, 11819125
+
 Thiago Henrique Cardoso, 11796594
 
 
